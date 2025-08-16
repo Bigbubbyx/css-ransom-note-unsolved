@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eater&family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eater&family=Nosifer&family=Rubik+Puddles&display=swap");
 
 * {
   padding: 0;
@@ -52,6 +55,17 @@ body {
 }
 
 /* Sample CSS for the WHY word */
+.first-letter {
+  font-size: 80px;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.last-letter {
+  font-size: 50px;
+  text-transform: capitalize;
+  text-shadow: 0 5px 12px #00ffea;
+}
 
 .whyWLetter {
   font-size: 72px;
@@ -59,7 +73,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +82,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,29 +91,58 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font-family: "Nosifer";
+  color: #ff0000;
+  text-shadow: 2px 2px 0 black, 4px 4px 0 #660000;
+  font-weight: 700;
+  font-size: 60px;
 }
 
 .didILetter {
+  font-family: "Eater";
+  color: yellowgreen;
+  text-shadow: 0 0 10px #00ffea, 0 0 20px #005f5f;
+  font-size: 60px;
 }
 
 .didDTwoLetter {
+  font-family: "Rubik Puddles";
+  color: yellow;
+  font-size: 50px;
+  text-decoration: overline;
+  text-transform: capitalize;
+  text-shadow: 0 0 10px #ff0000, 0 0 12px black;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-family: "Piazzolla";
+  font-weight: 400;
+  font-size: 45px;
+  text-transform: capitalize;
+  color: aquamarine;
 }
 
 .theHLetter {
+  font-family: "Ceviche One";
+  font-size: 80px;
+  text-shadow: 0 0 25px;
 }
 
 .theELetter {
+  font-family: "Raleway Dots";
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-size: 75px;
+  color: rgb(199, 14, 199);
+  font-weight: 700;
 }
 
 /* FRONT-END word */
