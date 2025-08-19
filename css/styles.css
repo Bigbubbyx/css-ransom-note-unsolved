@@ -54,7 +54,6 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-/* Sample CSS for the WHY word */
 .first-letter {
   font-size: 80px;
   text-decoration: underline;
@@ -67,6 +66,7 @@ body {
   text-shadow: 0 5px 12px #00ffea;
 }
 
+/* Sample CSS for the WHY word */
 .whyWLetter {
   font-size: 72px;
   font-weight: bold;
@@ -148,48 +148,116 @@ body {
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-weight: bold;
+  font-family: "Eater";
+  color: #392f92;
 }
 
 .frontendRLetter {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 45px;
+  text-transform: capitalize;
+  color: #ff0000;
+  text-shadow: 0 0 15px purple;
 }
 
 .frontendOLetter {
+  font-size: 80px;
+  color: #00ffea;
+  text-shadow: 0 -10px 2px;
 }
 
 .frontendNLetter {
+  font-family: "Nosifer";
+  font-size: 65px;
+  color: #1b81aa;
+  text-decoration: overline;
 }
 
 .frontendTLetter {
+  font-family: "Raleway dots";
+  font-size: 90px;
+  color: rgb(236, 214, 11);
+  text-decoration: underline;
 }
 
 .frontendELetter {
+  font-family: "Nosifer";
+  font-size: 70px;
+  color: burlywood;
+  text-shadow: 0 0 12px red;
 }
 
 .frontendNTwoLetter {
+  font-family: "Eater";
+  font-size: 45px;
+  color: chartreuse;
 }
 
 .frontendDLetter {
+  color: #01eeda;
+  text-transform: lowercase;
+  font-weight: bold;
+  text-shadow: 0 0 10px red;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-family: "Nosifer";
+  text-decoration: none;
+  color: yellowgreen;
+  text-shadow: 0 0 10px red, 5px 5px 3px aqua;
 }
 .developerELetter {
+  font-family: "Eater";
+  font-size: 50px;
+  color: rgb(199, 31, 31);
+  text-shadow: 0 0 8px rgb(9, 211, 211);
+  font-weight: 700;
 }
 .developerVLetter {
+  font-family: "Raleway dots";
+  font-size: 95px;
+  color: yellowgreen;
+  font-weight: bold;
+  text-shadow: 0 0 15px yellow;
 }
 .developerETwoLetter {
+  font-family: "Rubik Puddles";
+  font-size: 45px;
+  color: yellowgreen;
+  text-shadow: 0 0 10px yellow;
+  text-decoration: underline;
 }
 .developerLLetter {
+  font-family: "Nosifer";
+  color: aqua;
+  font-size: 90px;
+  text-shadow: 0 0 8px purple, 5px 5px 10px black;
 }
 .developerOLetter {
+  font-family: "Raleway Dots";
+  font-size: 85px;
+  text-shadow: 5px 5px 10px orange;
+  font-weight: 700;
 }
 .developerPLetter {
+  font-family: "Eater";
+  font-size: 70px;
+  color: #392f92;
+  text-shadow: 5px 5px 10px cyan;
 }
 .developerEThreeLetter {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 80px;
+  text-shadow: 4px 4px 15px yellow, 5px 5px 10px red;
 }
 .developerRLetter {
+  font-family: "Eater";
+  font-weight: normal;
+  text-decoration: overline;
 }
 
 /* TAKE word */
