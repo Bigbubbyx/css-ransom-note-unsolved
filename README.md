@@ -48,7 +48,7 @@ This assignment should prove that a student is able to:
 ## Specific requirements
 
 - [x] Check out the sample image of a completed assignment to see the expected outcome in /assets/images/. You don't need to imitate it exactly, feel free to use any desired letter styles.
-- [ ] You should have at least 10 different styles for the letters. A "unique" style means a distinct combination of:
+- [x] You should have at least 10 different styles for the letters. A "unique" style means a distinct combination of:
   - Font size
   - Font color
   - Font weight
@@ -56,20 +56,20 @@ This assignment should prove that a student is able to:
   - Font transformation
   - Font family
 - [ ] Set the font size using fixed pixel values.
-- [ ] Use at least two color systems of your choice for setting the color (hex, rgb, hsl, etc.).
-- [ ] Ensure each font weight value from the given list is used at least once:
+- [x] Use at least two color systems of your choice for setting the color (hex, rgb, hsl, etc.).
+- [x] Ensure each font weight value from the given list is used at least once:
   - Bold
   - Normal
   - 400
   - 700
-- [ ] Each text decoration value from the provided list should be used at least once:
+- [x] Each text decoration value from the provided list should be used at least once:
   - Underline
   - Line-through
   - Overline
   - None
-- [ ] Include capitalized letters.
+- [x] Include capitalized letters.
 - [ ] Style every letter in the message.
-- [ ] Group selectors with the same styles.
+- [x] Group selectors with the same styles.
 
   You can group the letter selectors by the common styles:
 

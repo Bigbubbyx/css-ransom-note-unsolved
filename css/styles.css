@@ -263,19 +263,42 @@ body {
 /* TAKE word */
 
 .takeTLetter {
+  font-family: "Eater";
+  color: aquamarine;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px maroon;
 }
 .takeALetter {
+  font-family: "Nosifer";
+  font-size: 25px;
+  color: rgb(148, 44, 245);
+  text-shadow: 0 0 10px yellow, 5px 5px 10px white;
 }
 .takeKLetter {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #660000;
+  font-size: 90px;
 }
 .takeELetter {
+  font-family: "Raleway Dots";
+  font-size: 85px;
+  text-shadow: 5px 5px 15px wheat, 5px 5px 15px white;
 }
 
 /* UP word */
 
 .upULetter {
+  font-family: "Nosifer";
+  text-decoration: none;
+  color: #00ffea;
+  text-shadow: 5px 5px 10px black;
 }
 .upPLetter {
+  font-family: "Piazzolla";
+  color: #ff0000;
+  font-size: 95px;
+  text-shadow: 4px 4px 15px black;
 }
 
 /* GARDENING word */
