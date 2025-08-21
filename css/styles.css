@@ -304,22 +304,55 @@ body {
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-family: "Rubik Puddles";
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: 700;
+  text-shadow: 4px 4px 10px #ff0000;
 }
 .gardeningALetter {
+  font-family: "Nosifer";
+  font-size: 70px;
+  text-shadow: 3px 3px 10px black;
 }
 .gardeningRLetter {
+  font-family: "Raleway Dots";
+  font-size: 95px;
 }
 .gardeningDLetter {
+  font-family: "Piazzolla";
+  font-size: 65px;
+  text-shadow: 0 0 10px rgb(204, 14, 125), 5px 5px 10px rgb(216, 24, 168);
+  color: #660000;
 }
 .gardeningELetter {
+  font-family: "Eater";
+  font-size: 70px;
+  color: #00ffea;
+  text-shadow: 5px 5px 15px yellow;
 }
 .gardeningNLetter {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  text-decoration: underline;
+  color: rgb(147, 228, 18);
 }
 .gardeningILetter {
+  font-family: "Eater";
+  font-size: 90px;
+  color: #00ffea;
+  text-shadow: 5px -5px 15px black;
 }
 .gardeningNTwoLetter {
+  font-family: "Rubik Puddles";
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(208, 228, 29);
 }
 .gardeningGTwoLetter {
+  font-family: "Nosifer";
+  color: #f3e30a;
 }
 
 /* BECAUSE word */
